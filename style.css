@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header img {
+    width: 100px; /* Adjust the width as needed for your thumbnail size */
+    height: 100px; /* Adjust the height as needed for your thumbnail size */
+    border-radius: 50%; /* Optional: Adds a circular border for a more thumbnail-like appearance */
+    display: block;
+    margin: 10px auto; /* Adjust the margin if needed */
+}
+
+nav {
+    text-align: center;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.larger-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #333;
+}
